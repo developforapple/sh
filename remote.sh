@@ -2,7 +2,7 @@
 
 name="com.mobilepower.terminal"
  
-PROCESS=`busybox ps -ef|grep name|grep -v grep|grep -v PPID|awk '{ print $2}'`
+PROCESS=`busybox ps -ef|grep name|grep -v grep|grep -v PPID|awk '{ print $1}'`
 for i in $PROCESS
 do
   echo "Kill the ${name} process [ $i ]"
