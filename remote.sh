@@ -1,0 +1,1 @@
+echo 'remote shell script'
