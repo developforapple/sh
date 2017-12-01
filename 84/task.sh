@@ -1,7 +1,7 @@
 #!/bin/sh
 
-THE_SHELL_TMP_PATH=${SHELL_TMP_PATH}
+THE_SHELL_TMP_DIR=${SHELL_TMP_DIR}
 
-echo "abcdefg"
-echo $THE_SHELL_TMP_PATH
-
+echo "b"
+echo $THE_SHELL_TMP_DIR
+echo "a"
