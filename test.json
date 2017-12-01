@@ -1,0 +1,47 @@
+{
+    "result": 0,
+    "msg": "service message",
+    "timestamp": 0,
+    "terminalid": 0,
+    "tasks": [
+    {
+        "id": 1,
+        "lang": 0,   
+        "mode": 0,
+        "content": "echo 'simple shell script'",
+        "encrypted": false,
+        "md5": "",
+        "filename": "自定义文件名",
+        "desc": "这是一个简单的脚本命令"
+    },
+    {
+        "id": 2,
+        "lang": 0,
+        "mode": 1,
+        "content": "echo \"file shell script; args: ${1} ${2} ${3}\" ",
+        "encrypted": false,
+        "md5": "",
+        "filename": "script2",
+        "desc": "这是一个脚本文件",
+        "args":[
+            "a1",
+            "a2",
+            "a3"
+        ]
+    },
+    {
+        "id": 3,
+        "lang": 0,
+        "mode": 2,
+        "content": "https://raw.githubusercontent.com/developforapple/sh/master/remote.sh",
+        "encrypted": false,
+        "md5": "",
+        "filename": "script3",
+        "desc": "这是一个远程脚本链接",
+        "args":[
+            "arg4",
+            "arg5",
+            "arg6"
+        ]
+    }]
+}
